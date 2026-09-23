@@ -1,0 +1,44 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="AGTTZCHjdhzKht4h03jv">
+    <mxGraphModel dx="998" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gIikb-qw7AY3lYK4iofO-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Customer" vertex="1">
+          <mxGeometry height="120" width="160" x="10" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gIikb-qw7AY3lYK4iofO-2" parent="gIikb-qw7AY3lYK4iofO-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+ email[RU]&lt;div&gt;+ company name [R]&lt;/div&gt;&lt;div&gt;+ name [RC]&lt;/div&gt;&lt;div&gt;+ address [RC]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gIikb-qw7AY3lYK4iofO-14" edge="1" parent="1" source="gIikb-qw7AY3lYK4iofO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERzeroToMany;startFill=0;endArrow=ERmandOne;endFill=0;strokeWidth=2;endSize=12;startSize=12;" target="gIikb-qw7AY3lYK4iofO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gIikb-qw7AY3lYK4iofO-19" connectable="0" parent="gIikb-qw7AY3lYK4iofO-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Receives /&lt;div&gt;Received by&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0207" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gIikb-qw7AY3lYK4iofO-4" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Quotation" vertex="1">
+          <mxGeometry height="140" width="160" x="290" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="gIikb-qw7AY3lYK4iofO-5" parent="gIikb-qw7AY3lYK4iofO-4" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+ date [R]&lt;div&gt;+ subtotal [DR]&lt;/div&gt;&lt;div&gt;+ tax [D]&lt;/div&gt;&lt;div&gt;+ discount&lt;/div&gt;&lt;div&gt;+ total [DR]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gIikb-qw7AY3lYK4iofO-18" edge="1" parent="1" source="gIikb-qw7AY3lYK4iofO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERzeroToMany;endFill=0;endSize=12;startSize=12;strokeWidth=2;" target="gIikb-qw7AY3lYK4iofO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gIikb-qw7AY3lYK4iofO-20" connectable="0" parent="gIikb-qw7AY3lYK4iofO-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Completes /&lt;div&gt;Completed by&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0059" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gIikb-qw7AY3lYK4iofO-6" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Salesperson" vertex="1">
+          <mxGeometry height="160" width="160" x="610" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gIikb-qw7AY3lYK4iofO-17" parent="gIikb-qw7AY3lYK4iofO-6" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+ username [RU]&lt;div&gt;+ name [RC]&lt;/div&gt;&lt;div&gt;+ department [R]&lt;/div&gt;&lt;div&gt;+ date of birth&lt;/div&gt;&lt;div&gt;+ age [D]&lt;/div&gt;&lt;div&gt;+ certifications [M]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="160" y="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

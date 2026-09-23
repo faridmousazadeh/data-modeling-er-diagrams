@@ -1,0 +1,72 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="shgyjwlRcmxQso9wuZpE">
+    <mxGraphModel dx="998" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8S-pTeh59t3pIF19rdTK-18" edge="1" parent="1" source="8S-pTeh59t3pIF19rdTK-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;endSize=12;startArrow=ERmandOne;startFill=0;startSize=12;" target="8S-pTeh59t3pIF19rdTK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8S-pTeh59t3pIF19rdTK-32" connectable="0" parent="8S-pTeh59t3pIF19rdTK-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="records /&lt;div&gt;recorded in&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0102" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8S-pTeh59t3pIF19rdTK-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Song" vertex="1">
+          <mxGeometry height="120" width="160" x="400" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="8S-pTeh59t3pIF19rdTK-2" parent="8S-pTeh59t3pIF19rdTK-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+ title [R]&lt;div&gt;+ artist [R]&lt;/div&gt;&lt;div&gt;+ genre [M]&lt;/div&gt;&lt;div&gt;+ length&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8S-pTeh59t3pIF19rdTK-24" edge="1" parent="1" source="8S-pTeh59t3pIF19rdTK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;endSize=12;startArrow=ERmandOne;startFill=0;startSize=12;" target="8S-pTeh59t3pIF19rdTK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8S-pTeh59t3pIF19rdTK-28" connectable="0" parent="8S-pTeh59t3pIF19rdTK-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;listens /&lt;div&gt;&amp;nbsp;listened by&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2623" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8S-pTeh59t3pIF19rdTK-3" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="User" vertex="1">
+          <mxGeometry height="120" width="160" x="250" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="8S-pTeh59t3pIF19rdTK-4" parent="8S-pTeh59t3pIF19rdTK-3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+ name [R]&lt;div&gt;+ email [RU]&lt;/div&gt;&lt;div&gt;+ preferred_genres [M]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8S-pTeh59t3pIF19rdTK-5" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Playlist" vertex="1">
+          <mxGeometry height="120" width="160" x="630" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="8S-pTeh59t3pIF19rdTK-6" parent="8S-pTeh59t3pIF19rdTK-5" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+ created_date [R]" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8S-pTeh59t3pIF19rdTK-7" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="History" vertex="1">
+          <mxGeometry height="120" width="160" x="140" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="8S-pTeh59t3pIF19rdTK-8" parent="8S-pTeh59t3pIF19rdTK-7" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="listen_date [R]" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8S-pTeh59t3pIF19rdTK-10" edge="1" parent="1" source="8S-pTeh59t3pIF19rdTK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.629;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;startSize=12;endSize=12;" target="8S-pTeh59t3pIF19rdTK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8S-pTeh59t3pIF19rdTK-11" connectable="0" parent="8S-pTeh59t3pIF19rdTK-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="creates /&lt;div&gt;created by&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0212" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8S-pTeh59t3pIF19rdTK-15" edge="1" parent="1" source="8S-pTeh59t3pIF19rdTK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;elbow=vertical;endArrow=ERoneToMany;endFill=0;endSize=12;startArrow=ERzeroToMany;startFill=0;startSize=12;" target="8S-pTeh59t3pIF19rdTK-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="650" />
+              <mxPoint x="600" y="650" />
+              <mxPoint x="600" y="782.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8S-pTeh59t3pIF19rdTK-16" connectable="0" parent="8S-pTeh59t3pIF19rdTK-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="contains /&lt;div&gt;appears on&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1945" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
